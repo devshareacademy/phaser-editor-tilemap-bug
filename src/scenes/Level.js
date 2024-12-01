@@ -82,7 +82,8 @@ export default class Level extends Phaser.Scene {
 		levelLayer.add(leftWallTileSprite);
 
 		// groundLayer
-		editabletilemap.createLayer("groundLayer", ["tilesets"], 0, 144);
+		const groundLayer = editabletilemap.createLayer("groundLayer", ["tilesets"], 0, 144);
+		levelLayer.add(groundLayer);
 
 		// playerLayer
 		const playerLayer = this.add.layer();

@@ -71,15 +71,15 @@
                     "originY": 0,
                     "width": 16,
                     "height": 176
+                },
+                {
+                    "type": "EditableTilemapLayer",
+                    "id": "de837e06-8a43-4d70-af22-d6ae9e5f0845",
+                    "label": "groundLayer",
+                    "y": 144,
+                    "tilemapId": "c7d66947-190a-4c6e-8517-469e089d8734"
                 }
             ]
-        },
-        {
-            "type": "EditableTilemapLayer",
-            "id": "de837e06-8a43-4d70-af22-d6ae9e5f0845",
-            "label": "groundLayer",
-            "y": 144,
-            "tilemapId": "c7d66947-190a-4c6e-8517-469e089d8734"
         },
         {
             "type": "Layer",
