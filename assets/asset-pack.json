@@ -1,0 +1,67 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/level/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/level/middleground-no-fungus.png",
+                "type": "image",
+                "key": "middleground-no-fungus"
+            },
+            {
+                "url": "assets/player/player-idle.png",
+                "frameConfig": {
+                    "frameWidth": 80,
+                    "frameHeight": 80,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player-idle"
+            },
+            {
+                "url": "assets/player/player-jump.png",
+                "frameConfig": {
+                    "frameWidth": 80,
+                    "frameHeight": 80,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player-jump"
+            },
+            {
+                "url": "assets/level/tilesets.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "tilesets"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

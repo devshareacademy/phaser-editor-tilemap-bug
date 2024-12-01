@@ -1,0 +1,174 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 240,
+        "borderHeight": 176
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "cc921894-358f-4b9f-8f1e-53bfac6a0854",
+            "label": "levelLayer",
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "25766698-bd70-4b92-a3ee-8af36d2d2515",
+                    "label": "backgroundTileSprite",
+                    "displayName": "Background",
+                    "texture": {
+                        "key": "background"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 240,
+                    "height": 176
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "2a89ed8d-b6c9-41cb-bd73-8f15f7fd3602",
+                    "label": "foregroundTileSprite",
+                    "displayName": "Foreground",
+                    "texture": {
+                        "key": "middleground-no-fungus"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 240,
+                    "height": 176
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "4be7780a-91f0-4c1c-9093-08003cc1a293",
+                    "label": "rightWallTileSprite",
+                    "displayName": "Right Wall",
+                    "texture": {
+                        "key": "tilesets",
+                        "frame": 229
+                    },
+                    "x": 224,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 16,
+                    "height": 176
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "4c5ff9ea-4af6-4196-9db3-649669099488",
+                    "label": "leftWallTileSprite",
+                    "displayName": "Left Wall",
+                    "texture": {
+                        "key": "tilesets",
+                        "frame": 232
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 16,
+                    "height": 176
+                }
+            ]
+        },
+        {
+            "type": "EditableTilemapLayer",
+            "id": "de837e06-8a43-4d70-af22-d6ae9e5f0845",
+            "label": "groundLayer",
+            "y": 144,
+            "tilemapId": "c7d66947-190a-4c6e-8517-469e089d8734"
+        },
+        {
+            "type": "Layer",
+            "id": "16146acd-2a9f-443a-8d15-ed90d87b0e11",
+            "label": "playerLayer",
+            "list": [
+                {
+                    "type": "ArcadeSprite",
+                    "id": "537e9a0f-2d45-4a90-af67-05181484bb7f",
+                    "label": "player",
+                    "displayName": "Player",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "player-idle",
+                        "frame": 0
+                    },
+                    "x": 120,
+                    "y": 145,
+                    "body.width": 11,
+                    "body.height": 44,
+                    "body.offset.x": 35,
+                    "body.offset.y": 20
+                }
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "c7d66947-190a-4c6e-8517-469e089d8734",
+            "type": "EditableTilemap",
+            "label": "editabletilemap",
+            "width": 15,
+            "height": 2,
+            "tileWidth": 16,
+            "tileHeight": 16,
+            "tilesets": [
+                {
+                    "name": "tilesets",
+                    "imageKey": "tilesets",
+                    "tileWidth": 16,
+                    "tileHeight": 16,
+                    "tileMargin": 0,
+                    "tileSpacing": 0
+                }
+            ],
+            "paintLayerId": "de837e06-8a43-4d70-af22-d6ae9e5f0845",
+            "paintTileset": "tilesets",
+            "layers": [
+                {
+                    "name": "groundLayer",
+                    "data": "[153,146,160,148,149,0,0,0,0,0,159,151,159,148,149,177,170,184,172,173,27,28,29,30,31,183,175,183,172,173]",
+                    "width": 15,
+                    "height": 2,
+                    "tileWidth": 16,
+                    "tileHeight": 16
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "cb26fc42-f9fb-4d3e-b8a6-f4dca63f6dab",
+            "label": "levelTileSprites",
+            "objectIds": [
+                "b1b2f8ce-eea8-4a73-83e7-649ffb997ed5",
+                "68703fb0-933e-478f-a156-f115c7d95cba",
+                "13a4cd3f-ae24-4187-8b75-c1e20ca03adf",
+                "f47418b9-7504-44c5-92e1-37618391a5ae",
+                "4c5ff9ea-4af6-4196-9db3-649669099488",
+                "4be7780a-91f0-4c1c-9093-08003cc1a293",
+                "2a89ed8d-b6c9-41cb-bd73-8f15f7fd3602",
+                "25766698-bd70-4b92-a3ee-8af36d2d2515"
+            ]
+        },
+        {
+            "id": "d1da4d45-c019-4dc0-bdb3-54c10cc52872",
+            "label": "walls",
+            "objectIds": [
+                "b1b2f8ce-eea8-4a73-83e7-649ffb997ed5",
+                "68703fb0-933e-478f-a156-f115c7d95cba",
+                "4c5ff9ea-4af6-4196-9db3-649669099488",
+                "4be7780a-91f0-4c1c-9093-08003cc1a293"
+            ]
+        }
+    ]
+}
